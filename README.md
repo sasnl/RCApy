@@ -189,6 +189,9 @@ The package implements a four-stage analysis pipeline:
 
 **Reliable Components Analysis (RCA)** identifies neural components that show high trial-to-trial reliability by solving a generalized eigenvalue problem that maximizes the ratio of cross-trial covariance to trial-average covariance.
 
+**Reference:**
+Dmochowski, J. P., Sajda, P., Dias, J., & Parra, L. C. (2012). Correlated components of ongoing EEG point to emotionally laden attention–a possible marker of engagement?. Frontiers in human neuroscience, 6.
+
 **Mathematical Foundation:**
 ```
 R̂ = argmax (W^T R_xx W) / (W^T R_x̄x̄ W)
