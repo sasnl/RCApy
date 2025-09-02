@@ -36,7 +36,7 @@ pip install -e .
 
 ### Development Installation
 ```bash
-git clone https://github.com/rcapy/rcapy.git
+git clone https://github.com/sasnl/RCApy.git
 cd rcapy
 pip install -e .[dev]
 ```
