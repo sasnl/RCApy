@@ -319,11 +319,6 @@ If you use this package in your research, please cite:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Support
-
-- **Documentation**: https://rcapy.readthedocs.io/
-- **Issues**: https://github.com/rcapy/rcapy/issues
-- **Discussions**: https://github.com/rcapy/rcapy/discussions
 
 ## Acknowledgments
 
