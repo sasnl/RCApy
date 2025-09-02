@@ -1,0 +1,34 @@
+# Include documentation files
+include README_PACKAGE.md
+include README.md
+include README_RCA_PIPELINE.md
+include LICENSE
+
+# Include setup and configuration files
+include setup.py
+include setup.cfg
+include pyproject.toml
+
+# Include all Python files
+recursive-include rcapy *.py
+
+# Include data files
+recursive-include rcapy/data *.json *.npz
+recursive-include rcapy/examples/data *.npz *.json
+recursive-include rcapy/examples/notebooks *.ipynb
+
+# Include test files
+recursive-include rcapy/tests *.py
+
+# Exclude compiled Python files
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
+
+# Exclude development files
+exclude .gitignore
+exclude .github/*
+recursive-exclude .git *
+
+# Exclude old egg-info
+recursive-exclude *.egg-info *
