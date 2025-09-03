@@ -36,8 +36,8 @@ For detailed documentation, see README_PACKAGE.md
 
 # Version information
 __version__ = "1.0.0"
-__author__ = "RCApy Development Team"
-__email__ = "rcapy.dev@example.com"
+__author__ = "Tong Shan"
+__email__ = "tongshan@stanford.edu"
 __description__ = "Reliable Components Analysis for Python"
 
 # Core imports - these are the main classes users will interact with
