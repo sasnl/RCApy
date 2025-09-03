@@ -29,7 +29,7 @@ pip install rcapy
 
 ### From Source
 ```bash
-git clone https://github.com/rcapy/rcapy.git
+git clone https://github.com/sasnl/rcapy.git
 cd rcapy
 pip install -e .
 ```
@@ -311,7 +311,7 @@ If you use this package in your research, please cite:
     title = {RCApy: Reliable Components Analysis for Python},
     author = {Tong Shan},
     year = {2025},
-    url = {https://github.com/rcapy/rcapy},
+    url = {https://github.com/sasnl/rcapy},
     version = {1.0.0}
 }
 ```
